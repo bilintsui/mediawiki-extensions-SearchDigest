@@ -8,7 +8,7 @@ use MediaWiki\Linker\LinkRenderer;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Permissions\PermissionManager;
 use QueryPage;
-use MediaWiki\Title\Title;
+use Title;
 
 class SpecialSearchDigest extends QueryPage {
 	private LinkRenderer $linkRenderer;
